@@ -1,0 +1,3 @@
+package com.college.notes.repository;
+import com.college.notes.entity.*; import org.springframework.data.jpa.repository.JpaRepository; import java.util.*;
+public interface UserRepository extends JpaRepository<User,Long>{ Optional<User> findByEmailIgnoreCase(String email); Optional<User> findByUserCodeIgnoreCase(String code); List<User> findByPhone(String phone); boolean existsByEmailIgnoreCase(String email); boolean existsByUserCodeIgnoreCase(String code); boolean existsByEmailIgnoreCaseAndIdNot(String email,Long id); boolean existsByUserCodeIgnoreCaseAndIdNot(String userCode,Long id); List<User> findByRole(Role role); }

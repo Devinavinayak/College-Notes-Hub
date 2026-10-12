@@ -1,0 +1,12 @@
+COLLEGE NOTES HUB
+=================
+
+1. Install Java 21+, MySQL 8+, Node.js 20+.
+2. Edit backend/src/main/resources/application.properties and set your MySQL password.
+3. Start backend: cd backend -> mvn spring-boot:run
+4. Start frontend: cd frontend -> npm install -> npm run dev
+5. Open http://localhost:5173
+
+Register a faculty account and a student account in the app to start with an empty dataset.
+
+Workflow: Faculty creates a subject and uploads PDF/image -> Student selects the faculty and subject -> Student sends an access request -> Faculty accepts -> Student sees/downloads notes for that approved subject.
