@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+Your local README content
+
 # College Notes Hub — Full Stack Development Mini Project
 
 A complete college notes sharing platform built with **React + Spring Boot + MySQL**.
@@ -179,3 +182,9 @@ This is a college mini-project foundation. For production deployment, add:
 - `GET /api/requests`
 - `POST /api/requests`
 - `PUT /api/requests/{id}?status=ACCEPTED|REJECTED`
+=======
+# College-Notes-Hub
+College Notes Hub is a web-based platform that simplifies academic resource sharing between faculty and students. Faculty can upload subject-wise notes and PDFs, manage multiple subjects, and approve or reject student access requests. Students can request, access, and download approved study materials through a centralized platform.
+>>>>>>> 2ea2c305ff2cc655f811e734d0b77a980fdb10c6
+README content from GitHub
+>>>>>>> ...
